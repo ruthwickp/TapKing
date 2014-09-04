@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DDEAE9A19B7F2B700538E64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDEAE9919B7F2B700538E64 /* Foundation.framework */; };
+		7DDEAE9C19B7F2B700538E64 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDEAE9B19B7F2B700538E64 /* CoreGraphics.framework */; };
+		7DDEAE9E19B7F2B700538E64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDEAE9D19B7F2B700538E64 /* UIKit.framework */; };
+		7DDEAEA419B7F2B700538E64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DDEAEA219B7F2B700538E64 /* InfoPlist.strings */; };
+		7DDEAEA619B7F2B700538E64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEAEA519B7F2B700538E64 /* main.m */; };
+		7DDEAEAA19B7F2B700538E64 /* TKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEAEA919B7F2B700538E64 /* TKAppDelegate.m */; };
+		7DDEAEAD19B7F2B700538E64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DDEAEAB19B7F2B700538E64 /* Main.storyboard */; };
+		7DDEAEB019B7F2B700538E64 /* TKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEAEAF19B7F2B700538E64 /* TKViewController.m */; };
+		7DDEAEB219B7F2B700538E64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DDEAEB119B7F2B700538E64 /* Images.xcassets */; };
+		7DDEAEB919B7F2B700538E64 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDEAEB819B7F2B700538E64 /* XCTest.framework */; };
+		7DDEAEBA19B7F2B700538E64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDEAE9919B7F2B700538E64 /* Foundation.framework */; };
+		7DDEAEBB19B7F2B700538E64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDEAE9D19B7F2B700538E64 /* UIKit.framework */; };
+		7DDEAEC319B7F2B700538E64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DDEAEC119B7F2B700538E64 /* InfoPlist.strings */; };
+		7DDEAEC519B7F2B700538E64 /* TapKingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEAEC419B7F2B700538E64 /* TapKingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7DDEAEBC19B7F2B700538E64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DDEAE8E19B7F2B700538E64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DDEAE9519B7F2B700538E64;
+			remoteInfo = TapKing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7DDEAE9619B7F2B700538E64 /* TapKing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapKing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DDEAE9919B7F2B700538E64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7DDEAE9B19B7F2B700538E64 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7DDEAE9D19B7F2B700538E64 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7DDEAEA119B7F2B700538E64 /* TapKing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapKing-Info.plist"; sourceTree = "<group>"; };
+		7DDEAEA319B7F2B700538E64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7DDEAEA519B7F2B700538E64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DDEAEA719B7F2B700538E64 /* TapKing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TapKing-Prefix.pch"; sourceTree = "<group>"; };
+		7DDEAEA819B7F2B700538E64 /* TKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKAppDelegate.h; sourceTree = "<group>"; };
+		7DDEAEA919B7F2B700538E64 /* TKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKAppDelegate.m; sourceTree = "<group>"; };
+		7DDEAEAC19B7F2B700538E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DDEAEAE19B7F2B700538E64 /* TKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKViewController.h; sourceTree = "<group>"; };
+		7DDEAEAF19B7F2B700538E64 /* TKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKViewController.m; sourceTree = "<group>"; };
+		7DDEAEB119B7F2B700538E64 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7DDEAEB719B7F2B700538E64 /* TapKingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapKingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DDEAEB819B7F2B700538E64 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7DDEAEC019B7F2B700538E64 /* TapKingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapKingTests-Info.plist"; sourceTree = "<group>"; };
+		7DDEAEC219B7F2B700538E64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7DDEAEC419B7F2B700538E64 /* TapKingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapKingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DDEAE9319B7F2B700538E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DDEAE9C19B7F2B700538E64 /* CoreGraphics.framework in Frameworks */,
+				7DDEAE9E19B7F2B700538E64 /* UIKit.framework in Frameworks */,
+				7DDEAE9A19B7F2B700538E64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DDEAEB419B7F2B700538E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DDEAEB919B7F2B700538E64 /* XCTest.framework in Frameworks */,
+				7DDEAEBB19B7F2B700538E64 /* UIKit.framework in Frameworks */,
+				7DDEAEBA19B7F2B700538E64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DDEAE8D19B7F2B700538E64 = {
+			isa = PBXGroup;
+			children = (
+				7DDEAE9F19B7F2B700538E64 /* TapKing */,
+				7DDEAEBE19B7F2B700538E64 /* TapKingTests */,
+				7DDEAE9819B7F2B700538E64 /* Frameworks */,
+				7DDEAE9719B7F2B700538E64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DDEAE9719B7F2B700538E64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DDEAE9619B7F2B700538E64 /* TapKing.app */,
+				7DDEAEB719B7F2B700538E64 /* TapKingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DDEAE9819B7F2B700538E64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DDEAE9919B7F2B700538E64 /* Foundation.framework */,
+				7DDEAE9B19B7F2B700538E64 /* CoreGraphics.framework */,
+				7DDEAE9D19B7F2B700538E64 /* UIKit.framework */,
+				7DDEAEB819B7F2B700538E64 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DDEAE9F19B7F2B700538E64 /* TapKing */ = {
+			isa = PBXGroup;
+			children = (
+				7DDEAEA819B7F2B700538E64 /* TKAppDelegate.h */,
+				7DDEAEA919B7F2B700538E64 /* TKAppDelegate.m */,
+				7DDEAEAB19B7F2B700538E64 /* Main.storyboard */,
+				7DDEAEAE19B7F2B700538E64 /* TKViewController.h */,
+				7DDEAEAF19B7F2B700538E64 /* TKViewController.m */,
+				7DDEAEB119B7F2B700538E64 /* Images.xcassets */,
+				7DDEAEA019B7F2B700538E64 /* Supporting Files */,
+			);
+			path = TapKing;
+			sourceTree = "<group>";
+		};
+		7DDEAEA019B7F2B700538E64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DDEAEA119B7F2B700538E64 /* TapKing-Info.plist */,
+				7DDEAEA219B7F2B700538E64 /* InfoPlist.strings */,
+				7DDEAEA519B7F2B700538E64 /* main.m */,
+				7DDEAEA719B7F2B700538E64 /* TapKing-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DDEAEBE19B7F2B700538E64 /* TapKingTests */ = {
+			isa = PBXGroup;
+			children = (
+				7DDEAEC419B7F2B700538E64 /* TapKingTests.m */,
+				7DDEAEBF19B7F2B700538E64 /* Supporting Files */,
+			);
+			path = TapKingTests;
+			sourceTree = "<group>";
+		};
+		7DDEAEBF19B7F2B700538E64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DDEAEC019B7F2B700538E64 /* TapKingTests-Info.plist */,
+				7DDEAEC119B7F2B700538E64 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DDEAE9519B7F2B700538E64 /* TapKing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DDEAEC819B7F2B700538E64 /* Build configuration list for PBXNativeTarget "TapKing" */;
+			buildPhases = (
+				7DDEAE9219B7F2B700538E64 /* Sources */,
+				7DDEAE9319B7F2B700538E64 /* Frameworks */,
+				7DDEAE9419B7F2B700538E64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapKing;
+			productName = TapKing;
+			productReference = 7DDEAE9619B7F2B700538E64 /* TapKing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7DDEAEB619B7F2B700538E64 /* TapKingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DDEAECB19B7F2B700538E64 /* Build configuration list for PBXNativeTarget "TapKingTests" */;
+			buildPhases = (
+				7DDEAEB319B7F2B700538E64 /* Sources */,
+				7DDEAEB419B7F2B700538E64 /* Frameworks */,
+				7DDEAEB519B7F2B700538E64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DDEAEBD19B7F2B700538E64 /* PBXTargetDependency */,
+			);
+			name = TapKingTests;
+			productName = TapKingTests;
+			productReference = 7DDEAEB719B7F2B700538E64 /* TapKingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DDEAE8E19B7F2B700538E64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Darkking;
+				TargetAttributes = {
+					7DDEAEB619B7F2B700538E64 = {
+						TestTargetID = 7DDEAE9519B7F2B700538E64;
+					};
+				};
+			};
+			buildConfigurationList = 7DDEAE9119B7F2B700538E64 /* Build configuration list for PBXProject "TapKing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DDEAE8D19B7F2B700538E64;
+			productRefGroup = 7DDEAE9719B7F2B700538E64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DDEAE9519B7F2B700538E64 /* TapKing */,
+				7DDEAEB619B7F2B700538E64 /* TapKingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DDEAE9419B7F2B700538E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DDEAEB219B7F2B700538E64 /* Images.xcassets in Resources */,
+				7DDEAEA419B7F2B700538E64 /* InfoPlist.strings in Resources */,
+				7DDEAEAD19B7F2B700538E64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DDEAEB519B7F2B700538E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DDEAEC319B7F2B700538E64 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DDEAE9219B7F2B700538E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DDEAEB019B7F2B700538E64 /* TKViewController.m in Sources */,
+				7DDEAEA619B7F2B700538E64 /* main.m in Sources */,
+				7DDEAEAA19B7F2B700538E64 /* TKAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DDEAEB319B7F2B700538E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DDEAEC519B7F2B700538E64 /* TapKingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DDEAEBD19B7F2B700538E64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DDEAE9519B7F2B700538E64 /* TapKing */;
+			targetProxy = 7DDEAEBC19B7F2B700538E64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7DDEAEA219B7F2B700538E64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DDEAEA319B7F2B700538E64 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7DDEAEAB19B7F2B700538E64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DDEAEAC19B7F2B700538E64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7DDEAEC119B7F2B700538E64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DDEAEC219B7F2B700538E64 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DDEAEC619B7F2B700538E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7DDEAEC719B7F2B700538E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DDEAEC919B7F2B700538E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapKing/TapKing-Prefix.pch";
+				INFOPLIST_FILE = "TapKing/TapKing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7DDEAECA19B7F2B700538E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapKing/TapKing-Prefix.pch";
+				INFOPLIST_FILE = "TapKing/TapKing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7DDEAECC19B7F2B700538E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TapKing.app/TapKing";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapKing/TapKing-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TapKingTests/TapKingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7DDEAECD19B7F2B700538E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TapKing.app/TapKing";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapKing/TapKing-Prefix.pch";
+				INFOPLIST_FILE = "TapKingTests/TapKingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DDEAE9119B7F2B700538E64 /* Build configuration list for PBXProject "TapKing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DDEAEC619B7F2B700538E64 /* Debug */,
+				7DDEAEC719B7F2B700538E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DDEAEC819B7F2B700538E64 /* Build configuration list for PBXNativeTarget "TapKing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DDEAEC919B7F2B700538E64 /* Debug */,
+				7DDEAECA19B7F2B700538E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7DDEAECB19B7F2B700538E64 /* Build configuration list for PBXNativeTarget "TapKingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DDEAECC19B7F2B700538E64 /* Debug */,
+				7DDEAECD19B7F2B700538E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DDEAE8E19B7F2B700538E64 /* Project object */;
+}
