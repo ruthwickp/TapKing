@@ -7,6 +7,7 @@
 //
 
 #import "TKViewController.h"
+#import <Parse/Parse.h>
 
 @interface TKViewController ()
 
